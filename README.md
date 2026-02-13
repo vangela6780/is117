@@ -2,7 +2,7 @@
 
 ## Live Portfolio
 
-**[View Live Site](https://vangela6780.github.io/portfolio/)**
+**[View Live Site](https://vangela6780.github.io/is117/)**
 
 Your portfolio is live and ready for recruiter discovery. This repository demonstrates a **strategic orchestration** approach: defining clear outcomes, designing a professional presence, and deploying with impact.
 
