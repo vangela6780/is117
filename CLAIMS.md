@@ -8,7 +8,7 @@
 ## Card 1: Bauhaus
 
 ### Claim 1
-- **Claim:**
+- **Claim:** A claim is that the style was founded by Walter Gropius in Weimar, Germany. 
 - **Source link(s):**
 - **Confidence:** High / Medium / Low
 - **Notes:**
