@@ -9,8 +9,8 @@
 
 ### Claim 1
 - **Claim:** A claim is that the style was founded by Walter Gropius in Weimar, Germany. 
-- **Source link(s):**
-- **Confidence:** High / Medium / Low
+- **Source link(s):** https://www.metmuseum.org/essays/the-bauhaus-1919-1933
+- **Confidence:** **High** / Medium / Low
 - **Notes:**
 
 ---
