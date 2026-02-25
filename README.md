@@ -14,7 +14,7 @@ This repository contains multiple assignments completed during the semester and 
 ## Assignment Pages
 
 ### 1) Curator Cards (Assignment 2)
-- URL: https://vangela6780.github.io/is117/
+- URL: https://vangela6780.github.io/is117/curator/
 - Includes 3 curator cards:
 	- Bauhaus (1919–1933)
 	- Swiss Style / International Typographic Style (1950s–1970s)
@@ -26,7 +26,7 @@ This repository contains multiple assignments completed during the semester and 
 	- CLAIMS.md
 
 ### 2) Career Portfolio Site
-- URL: https://vangela6780.github.io/is117/portfolio/
+- URL: https://vangela6780.github.io/is117/
 - Content includes hero, projects, skills, and contact form.
 
 ### 3) First Basic Webpage (Original Version)
@@ -35,9 +35,10 @@ This repository contains multiple assignments completed during the semester and 
 
 ## Repository Structure
 
-- Root page for submitted assignment: [index.html](index.html)
+- Root page (portfolio): [index.html](index.html)
 - Curator styling: [css/styles.css](css/styles.css)
-- Portfolio page: [portfolio/index.html](portfolio/index.html)
+- Curator page: [curator/index.html](curator/index.html)
+- Portfolio page source copy: [portfolio/index.html](portfolio/index.html)
 - Basic original page: [basic/index.html](basic/index.html)
 
 ## Reflection (Spec-Driven Development with AI)
