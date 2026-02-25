@@ -3,38 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Angela Vazquez is an NJIT full-stack developer targeting NJ and NY fintech, AI, and SaaS roles with React, Node.js, Express, and SQL experience.">
+    <meta name="keywords" content="NJ developer, NY developer, React developer, Node.js developer, full-stack developer, NJIT, fintech engineer, SaaS engineer">
+    <meta name="author" content="Angela Vazquez">
     <link rel="stylesheet" href="css/styles.css">
-    <title>IS117 My First Website Page</title>
+    <title>Angela Vazquez | Full-Stack Developer (NJ/NY)</title>
 </head>
 <body>
-    <header>
-        <h1>Angela Vazquez</h1>
-        <p class="subtitle">IS117 — Student Webpage</p>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a class="brand" href="#top">Angela Vazquez</a>
+            <nav aria-label="Primary">
+                <ul class="nav-links">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hi! I'm learning HTML, CSS, and JavaScript. This is my first web page.</p>
+    <main id="top">
+        <section class="hero">
+            <div class="container hero-content">
+                <p class="eyebrow">NJIT • May 2026 • NJ/NY</p>
+                <h1>Full-Stack Developer building reliable web systems for fintech, AI, and SaaS teams.</h1>
+                <p class="subtitle">I design and ship fast, scalable products with React, Node.js, Express, and SQL.</p>
+                <div class="cta-group">
+                    <a class="btn btn-primary" href="resume/Angela_Vazquez_Resume.pdf" download>Download Resume</a>
+                    <a class="btn btn-secondary" href="#connect">Book a 15-min Intro Call</a>
+                </div>
+                <ul class="quick-points" aria-label="Highlights">
+                    <li>Systems thinking from RabbitMQ event-driven work</li>
+                    <li>Bilingual: English + Spanish</li>
+                    <li>Proven full-stack delivery with production-style projects</li>
+                </ul>
+            </div>
         </section>
 
-        <section id="links">
-            <h2>Links</h2>
-            <ul>
-                <li><a href="https://www.njit.edu/">NJIT</a></li>
-                <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
-            </ul>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="grid projects-grid">
+                    <article class="card">
+                        <h3>RabbitMQ Event Pipeline</h3>
+                        <p>Built asynchronous messaging workflows to improve service reliability and reduce coupling between components.</p>
+                        <p class="stack">Node.js • RabbitMQ • System Design</p>
+                    </article>
+                    <article class="card">
+                        <h3>Full-Stack Application</h3>
+                        <p>Developed a complete CRUD application with secure API routes, data models, and responsive client views.</p>
+                        <p class="stack">React • Express • Sequelize • SQL</p>
+                    </article>
+                    <article class="card">
+                        <h3>Weather Dashboard</h3>
+                        <p>Shipped a user-friendly dashboard integrating external APIs, dynamic rendering, and clean UI states.</p>
+                        <p class="stack">JavaScript • REST APIs • Frontend UX</p>
+                    </article>
+                </div>
+            </div>
         </section>
 
-        <section id="demo">
-            <h2>Interactive Demo</h2>
-            <button id="myButton">Click me</button>
-            <p id="demoText">Click the button to change this text.</p>
+        <section id="skills" class="section alt-bg">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="grid skills-grid">
+                    <article class="card">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>REST API Design</li>
+                            <li>Authentication Patterns</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Data & Deployment</h3>
+                        <ul>
+                            <li>SQL</li>
+                            <li>Sequelize ORM</li>
+                            <li>GitHub Pages</li>
+                            <li>Vercel & Railway</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="section">
+            <div class="container connect-wrap">
+                <div>
+                    <h2>Let’s Connect</h2>
+                    <p>I am actively pursuing full-stack roles in NJ/NY for 2026. Send your email and I’ll reply with resume + project links.</p>
+                    <p><strong>Email fallback:</strong> <a href="mailto:angela.vazquez.dev@gmail.com">angela.vazquez.dev@gmail.com</a></p>
+                </div>
+                <form id="leadForm" class="lead-form" novalidate>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <button type="submit" class="btn btn-primary">Send Resume Request</button>
+                    <p id="formMessage" class="form-message" aria-live="polite"></p>
+                </form>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Angela Vazquez</p>
+        <p>&copy; <span id="year"></span> Angela Vazquez · NJIT · Full-Stack Developer</p>
     </footer>
 
     <script src="js/scripts.js"></script>
