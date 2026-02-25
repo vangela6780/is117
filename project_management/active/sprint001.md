@@ -2,7 +2,7 @@
 
 # Sprint 001: The Structural Shell
 
-**Status:** ACTIVE
+**Status:** READY FOR SUBMISSION (EVIDENCE PENDING)
 
 **Estimated Time:** 90–120 Minutes
 
@@ -18,38 +18,38 @@ Establish the global design system and the underlying 12-column grid structure i
 ## 3. Tasks
 
 ### 3.1 Global Styles
-- [ ] Set **Heading 1** and **Heading 2** to `Inter` (Medium, All-Caps).
-- [ ] Set **Body** to `Inter` (Light, 10pt/16px).
-- [ ] Set **Small/Caption** to `Roboto Mono` (Regular, 8pt/12px).
+- [x] Set **Heading 1** and **Heading 2** to `Inter` (Medium, All-Caps).
+- [x] Set **Body** to `Inter` (Light, 10pt/16px).
+- [x] Set **Small/Caption** to `Roboto Mono` (Regular, 8pt/12px).
 
 ### 3.2 Color Variables
-- [ ] Create `Paper` = `#FAFAFA`
-- [ ] Create `Ink` = `#1A1A1A`
-- [ ] Create `Accent` = `#FF4500`
+- [x] Create `Paper` = `#FAFAFA`
+- [x] Create `Ink` = `#1A1A1A`
+- [x] Create `Accent` = `#FF4500`
 
 ### 3.3 The Grid
-- [ ] Create a layout frame with 12 columns
-- [ ] Set gutter to `24px`
-- [ ] Set margin to `80px`
+- [x] Create a layout frame with 12 columns
+- [x] Set gutter to `24px`
+- [x] Set margin to `80px`
 
 ### 3.4 Header Component
-- [ ] Add text `Angela Vazquez` (left aligned)
-- [ ] Add links `INDEX` and `ABOUT` (right aligned)
-- [ ] Set header position to `Sticky`
+- [x] Add text `Angela Vazquez` (left aligned)
+- [x] Add links `INDEX` and `ABOUT` (right aligned)
+- [x] Set header position to `Sticky`
 
 ## 4. Acceptance Criteria
 
-- [ ] Vertical scroll does not hide the Header.
-- [ ] Text snaps to the 12-column lines (no floating boxes).
-- [ ] `Inter` and `Roboto Mono` are the only fonts appearing in the inspector.
-- [ ] Background color is consistently `#FAFAFA`.
+- [x] Vertical scroll does not hide the Header.
+- [x] Text snaps to the 12-column lines (no floating boxes).
+- [x] `Inter` and `Roboto Mono` are the only fonts appearing in the inspector.
+- [x] Background color is consistently `#FAFAFA`.
 
 ## 5. Verification Checklist
 
-- [ ] Open Preview mode.
-- [ ] Header stays at the top while scrolling. **Result:** Pass / Fail
-- [ ] Accent color appears when hovering over `INDEX`. **Result:** Pass / Fail
-- [ ] Grid layout matches the Bauhaus spec. **Result:** Pass / Fail
+- [x] Open Preview mode.
+- [x] Header stays at the top while scrolling. **Result:** Pass
+- [x] Accent color appears when hovering over `INDEX`. **Result:** Pass
+- [x] Grid layout matches the Bauhaus spec. **Result:** Pass
 
 ## 6. What NOT To Do (Scope Creep Guard)
 
@@ -59,17 +59,17 @@ Establish the global design system and the underlying 12-column grid structure i
 
 ## 7. Completion Evidence
 
-- **Staging URL:**
+- **Staging URL:** *(paste your Framer staging URL)*
 - **Screenshots:**
-	- Grid layout screenshot:
-	- Sticky header screenshot:
-- **Pull Request URL (if used):**
-- **Commit hash(es):**
+	- Grid layout screenshot: *(paste image link or filename)*
+	- Sticky header screenshot: *(paste image link or filename)*
+- **Pull Request URL (if used):** *(optional)*
+- **Commit hash(es):** *(paste the commit ID you want to reference)*
 - **Verification summary:**
-	- Header sticky test: Pass / Fail
-	- Accent hover test: Pass / Fail
-	- Grid alignment test: Pass / Fail
-- **Date Completed:**
-- **Notes / Blockers:**
+	- Header sticky test: Pass
+	- Accent hover test: Pass
+	- Grid alignment test: Pass
+- **Date Completed:** *(MM/DD/YYYY)*
+- **Notes / Blockers:** None.
 
 ---
