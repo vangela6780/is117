@@ -27,7 +27,7 @@ This repository contains multiple assignments completed during the semester and 
 	- CLAIMS.md
 
 ### 2) Career Portfolio Site
-- URL: https://vangela6780.github.io/is117/
+- URL: https://vangela6780.github.io/is117/portfolio/
 - Content includes hero, projects, skills, and contact form.
 
 ### 3) First Basic Webpage (Original Version)
