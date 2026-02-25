@@ -59,7 +59,7 @@ Establish the global design system and the underlying 12-column grid structure i
 
 ## 7. Completion Evidence
 
-- **Staging URL:** *(paste your Framer staging URL)*
+- **Staging URL:** https://framer.com/projects/Sweet-Potential--JA6k9KSDrNRVR9Grz9BW-1E0Sq?node=augiA20Il
 - **Screenshots:**
 	- Grid layout screenshot: *(paste image link or filename)*
 	- Sticky header screenshot: *(paste image link or filename)*
@@ -69,7 +69,7 @@ Establish the global design system and the underlying 12-column grid structure i
 	- Header sticky test: Pass
 	- Accent hover test: Pass
 	- Grid alignment test: Pass
-- **Date Completed:** *(MM/DD/YYYY)*
+- **Date Completed:** 02/24/2026
 - **Notes / Blockers:** None.
 
 ---
