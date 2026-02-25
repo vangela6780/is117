@@ -2,7 +2,7 @@
 
 # Sprint 001: The Structural Shell
 
-**Status:** READY FOR SUBMISSION (EVIDENCE PENDING)
+**Status:** COMPLETED
 
 **Estimated Time:** 90–120 Minutes
 
@@ -61,8 +61,8 @@ Establish the global design system and the underlying 12-column grid structure i
 
 - **Staging URL:** https://vangela6780.github.io/is117/portfolio/
 - **Screenshots:**
-	- Grid layout screenshot: *(paste image link or filename)*
-	- Sticky header screenshot: *(paste image link or filename)*
+	- Grid layout screenshot: [grid-layout.png](sprint001_receipts/grid-layout.png)
+	- Sticky header screenshot: [sticky-header.png](sprint001_receipts/sticky-header.png)
 - **Pull Request URL (if used):** *(optional)*
 - **Commit hash(es):** *(paste the commit ID you want to reference)*
 - **Verification summary:**
