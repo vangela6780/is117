@@ -1,0 +1,33 @@
+ANGELA VAZQUEZ
+NJIT Student • Full-Stack Developer Candidate (May 2026)
+Location Target: New Jersey / New York
+
+SUMMARY
+Full-stack developer focused on shipping reliable, user-centered products for fintech, AI, and SaaS teams.
+Strengths include systems thinking, event-driven architecture, and practical full-stack delivery.
+
+TECH STACK
+Frontend: HTML5, CSS3, JavaScript, React.js
+Backend: Node.js, Express.js
+Database: SQL, Sequelize ORM
+Deployment: GitHub Pages, Vercel, Railway
+
+FEATURED PROJECTS
+1) RabbitMQ Event Pipeline
+   - Built asynchronous messaging workflows to improve service reliability and reduce service coupling.
+
+2) Full-Stack Application
+   - Developed a CRUD app with API routes, data models, and responsive frontend components.
+
+3) Weather Dashboard
+   - Implemented API integrations and dynamic rendering with user-friendly UI states.
+
+DIFFERENTIATORS
+- Bilingual: English / Spanish
+- Systems thinking mindset
+- Strategic, outcome-driven approach to career and engineering growth
+
+CONTACT
+Email: angela.vazquez.dev@gmail.com
+LinkedIn: Add your LinkedIn URL
+GitHub: Add your GitHub URL
