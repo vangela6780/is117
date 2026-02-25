@@ -59,7 +59,7 @@ Establish the global design system and the underlying 12-column grid structure i
 
 ## 7. Completion Evidence
 
-- **Staging URL:** https://framer.com/projects/Sweet-Potential--JA6k9KSDrNRVR9Grz9BW-1E0Sq?node=augiA20Il
+- **Staging URL:** https://vangela6780.github.io/is117/
 - **Screenshots:**
 	- Grid layout screenshot: *(paste image link or filename)*
 	- Sticky header screenshot: *(paste image link or filename)*
@@ -70,6 +70,6 @@ Establish the global design system and the underlying 12-column grid structure i
 	- Accent hover test: Pass
 	- Grid alignment test: Pass
 - **Date Completed:** 02/24/2026
-- **Notes / Blockers:** None.
+- **Notes / Blockers:** Framer access was unstable (Google auth route returned `/api/v1/auth/google/false` and preview loaded blank), so evidence uses the live GitHub Pages deployment.
 
 ---
