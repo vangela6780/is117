@@ -6,6 +6,11 @@ This repository contains multiple assignments completed during the semester and 
 
 - Main submitted link: https://vangela6780.github.io/is117/
 
+## Assignment Requirement Check
+
+- Website URL included in this README: https://vangela6780.github.io/is117/
+- Reflection included below (200+ words)
+
 ## Assignment Pages
 
 ### 1) Curator Cards (Assignment 2)
@@ -34,4 +39,14 @@ This repository contains multiple assignments completed during the semester and 
 - Curator styling: [css/styles.css](css/styles.css)
 - Portfolio page: [portfolio/index.html](portfolio/index.html)
 - Basic original page: [basic/index.html](basic/index.html)
+
+## Reflection (Spec-Driven Development with AI)
+
+For this project, the biggest thing I learned is that AI works best when I stop trying to get one perfect final answer in a single prompt. At first I was doing that, and my output kept drifting. What worked better was the process from class: explore, converge, lock the spec, then execute in sprints with verification.
+
+In the exploration phase, I used AI to generate options and compare tradeoffs instead of committing too early. Then I converged by choosing one direction and writing down constraints. After that, I treated the spec as the source of truth so the build stayed focused. Breaking the work into sprint files helped me move in small chunks and reduced mistakes. The acceptance criteria and verification checklist gave me a clear way to test if each step was really done.
+
+I also learned the importance of keeping evidence and project memory in files like AGENTS.md, PROMPT_LOG.md, and CLAIMS.md. That made it easier to recover work, switch context, and continue without losing progress. When parts of my site changed unexpectedly, I was able to restore earlier versions and still keep current assignment requirements because everything was documented.
+
+Overall, this project taught me that the real skill is not just coding with AI. The real skill is managing decisions, constraints, and checkpoints so I can reliably ship a finished website.
 
