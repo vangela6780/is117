@@ -59,7 +59,7 @@ Establish the global design system and the underlying 12-column grid structure i
 
 ## 7. Completion Evidence
 
-- **Staging URL:** https://vangela6780.github.io/is117/
+- **Staging URL:** https://vangela6780.github.io/is117/portfolio/
 - **Screenshots:**
 	- Grid layout screenshot: *(paste image link or filename)*
 	- Sticky header screenshot: *(paste image link or filename)*

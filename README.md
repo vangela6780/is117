@@ -5,6 +5,7 @@ This repository contains multiple assignments completed during the semester and 
 ## Live Site (Single Submitted Link)
 
 - Main submitted link: https://vangela6780.github.io/is117/
+- Spec-Driven assignment page (portfolio): https://vangela6780.github.io/is117/portfolio/
 
 ## Assignment Requirement Check
 
