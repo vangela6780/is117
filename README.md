@@ -35,7 +35,3 @@ This repository contains multiple assignments completed during the semester and 
 - Portfolio page: [portfolio/index.html](portfolio/index.html)
 - Basic original page: [basic/index.html](basic/index.html)
 
-## Notes
-
-- All three pages are intentionally kept in this same repository so graders can access past and current work from one submitted GitHub Pages link.
-- Navigation links on the pages connect Curator, Portfolio, and Basic versions.
