@@ -12,40 +12,26 @@ Establish the global design system and the underlying 12-column grid structure i
 
 ## 2. Scope
 
-* **In:** Typography styles, color variables, 12-column layout grid, Sticky Header.
-* **Out:** Image uploads, project data, mobile optimization, hover animations.
+- **In:** Typography styles, color variables, 12-column layout grid, Sticky Header.
+- **Out:** Image uploads, project data, mobile optimization, hover animations.
 
 ## 3. Tasks
 
-1. **Global Styles:** * Set **Heading 1** & **Heading 2** to `Inter` (Medium, All-Caps).
-* Set **Body** to `Inter` (Light, 10pt/16px).
-* Set **Small/Caption** to `Roboto Mono` (Regular, 8pt/12px).
-
-
-2. **Color Variables:** * `Paper`: #FAFAFA
-* `Ink`: #1A1A1A
-* `Accent`: #FF4500
-
-- **In:** Typography styles, color variables, 12-column layout grid, Sticky Header.
-- **Out:** Image uploads, project data, mobile optimization, hover animations.
-* Columns: 12
-* Gutter: 24px
-* Margin: 80px
 ### 3.1 Global Styles
 - [ ] Set **Heading 1** and **Heading 2** to `Inter` (Medium, All-Caps).
 - [ ] Set **Body** to `Inter` (Light, 10pt/16px).
 - [ ] Set **Small/Caption** to `Roboto Mono` (Regular, 8pt/12px).
-* Links "INDEX" and "ABOUT" (Right aligned).
+
 ### 3.2 Color Variables
 - [ ] Create `Paper` = `#FAFAFA`
 - [ ] Create `Ink` = `#1A1A1A`
 - [ ] Create `Accent` = `#FF4500`
-* Set Position to `Sticky`.
+
 ### 3.3 The Grid
 - [ ] Create a layout frame with 12 columns
 - [ ] Set gutter to `24px`
 - [ ] Set margin to `80px`
-## 4. Acceptance Criteria
+
 ### 3.4 Header Component
 - [ ] Add text `Angela Vazquez` (left aligned)
 - [ ] Add links `INDEX` and `ABOUT` (right aligned)
@@ -57,16 +43,16 @@ Establish the global design system and the underlying 12-column grid structure i
 - [ ] Text snaps to the 12-column lines (no floating boxes).
 - [ ] `Inter` and `Roboto Mono` are the only fonts appearing in the inspector.
 - [ ] Background color is consistently `#FAFAFA`.
+
 ## 5. Verification Checklist
-## 5. Verification Checklist
-* [ ] Does the accent color appear when hovering over "INDEX"? (Pass/Fail)
+
 - [ ] Open Preview mode.
 - [ ] Header stays at the top while scrolling. **Result:** Pass / Fail
 - [ ] Accent color appears when hovering over `INDEX`. **Result:** Pass / Fail
 - [ ] Grid layout matches the Bauhaus spec. **Result:** Pass / Fail
-* [ ] Does the grid layout match the Bauhaus spec? (Pass/Fail)
+
 ## 6. What NOT To Do (Scope Creep Guard)
-## 6. What NOT To Do (Scope Creep Guard)
+
 - **Do not** add a logo image; use text only.
 - **Do not** attempt to make the header transparent or add blur effects.
 - **Do not** add smooth scrolling plugins.
@@ -74,7 +60,16 @@ Establish the global design system and the underlying 12-column grid structure i
 ## 7. Completion Evidence
 
 - **Staging URL:**
-- **Screenshot (grid layout):**
+- **Screenshots:**
+	- Grid layout screenshot:
+	- Sticky header screenshot:
+- **Pull Request URL (if used):**
+- **Commit hash(es):**
+- **Verification summary:**
+	- Header sticky test: Pass / Fail
+	- Accent hover test: Pass / Fail
+	- Grid alignment test: Pass / Fail
 - **Date Completed:**
 - **Notes / Blockers:**
+
 ---
