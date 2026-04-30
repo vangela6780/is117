@@ -6,6 +6,7 @@ This repository contains multiple assignments completed during the semester and 
 
 - Main submitted link: https://vangela6780.github.io/is117/
 - Spec-Driven assignment page (portfolio): https://vangela6780.github.io/is117/portfolio/
+- Scrollytelling module: https://vangela6780.github.io/is117/scrollytelling/
 
 ## Assignment Requirement Check
 
@@ -33,6 +34,14 @@ This repository contains multiple assignments completed during the semester and 
 ### 3) First Basic Webpage (Original Version)
 - URL: https://vangela6780.github.io/is117/basic/index.html
 - Restored from earlier commit and preserved for grading/history.
+
+### 4) Scrollytelling Module (Spec-Driven)
+- URL: https://vangela6780.github.io/is117/scrollytelling/
+- Supporting page: https://vangela6780.github.io/is117/scrollytelling/why.html
+- Process artifacts in this repo:
+	- project_management/mini-spec-scrollytelling.md
+	- project_management/sprint-plan-scrollytelling.md
+	- project_management/active/sprint002_scrollytelling.md
 
 ## Repository Structure
 

@@ -6,7 +6,7 @@
 - **Chosen stack:** Static HTML/CSS/JavaScript hosted on GitHub Pages.
 
 ## Current Active Sprint #
-- **None currently active** (Sprint 001 is completed and moved to `completed/`).
+- **Sprint 002 active:** [project_management/active/sprint002_scrollytelling.md](active/sprint002_scrollytelling.md)
 
 ## Completed Sprints + Evidence Links
 - **Sprint 001:** [project_management/completed/sprint001.md](completed/sprint001.md)
@@ -16,6 +16,7 @@
 
 ## Current Deploy URL
 - **Primary assignment URL (Spec-Driven portfolio):** https://vangela6780.github.io/is117/portfolio/
+- **Scrollytelling module URL:** https://vangela6780.github.io/is117/scrollytelling/
 - **Repo URL:** https://github.com/vangela6780/is117
 
 ## Known Issues / Risks
