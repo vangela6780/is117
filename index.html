@@ -31,19 +31,27 @@
     <main id="top">
         <section class="hero">
             <div class="container hero-content">
-                <p class="eyebrow">NJIT • May 2026 • NJ/NY</p>
-                <h1>Angela Vazquez</h1>
-                <p class="hero-role">Student Developer | Data + AI Projects</p>
-                <p class="subtitle">I build data-driven web apps and AI-powered tools, with a focus on interactive storytelling, full-stack development, and practical machine-learning integrations.</p>
+                <p class="eyebrow">Angela Vazquez &nbsp;·&nbsp; NJIT &nbsp;·&nbsp; May 2026 &nbsp;·&nbsp; NJ/NY</p>
+                <h1>I build data-driven web apps and document the decisions well enough that any team can keep shipping.</h1>
+                <p class="hero-audience">For full-stack engineering and data teams in NJ/NY hiring a developer who specs before building.</p>
                 <div class="cta-group">
                     <a class="btn btn-primary" href="#projects">View Projects</a>
                     <a class="btn btn-secondary" href="https://github.com/vangela6780" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
-                <ul class="quick-points" aria-label="Highlights">
-                    <li>Spec-driven development — requirements first, then code</li>
-                    <li>Bilingual: English + Spanish</li>
-                    <li>Full-stack delivery with data visualization and AI integrations</li>
-                </ul>
+                <div class="proof-stats" aria-label="Proof stats">
+                    <div class="stat">
+                        <span class="stat-num">7</span>
+                        <span class="stat-label">production websites maintained across a web internship</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">2</span>
+                        <span class="stat-label">industry internships including IBM and a NJ web agency</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">3</span>
+                        <span class="stat-label">shipped projects with spec, code, and deployed proof</span>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -54,12 +62,9 @@
                     <article class="card card-featured">
                         <span class="badge">Featured</span>
                         <h3>Student Reality Lab</h3>
-                        <p>A data-driven scrollytelling web app exploring the cost of war using real datasets. Built with interactive charts, multiple data views, and narrative storytelling to make complex information accessible.</p>
-                        <ul class="feature-list">
-                            <li>Interactive charts and data visualizations</li>
-                            <li>Multiple data views with narrative structure</li>
-                            <li>Spec-driven development workflow</li>
-                        </ul>
+                        <p>A data-driven scrollytelling web app exploring the human cost of war using real datasets, built spec-first with a documented sprint trail.</p>
+                        <p class="card-outcome"><strong>Outcome:</strong> Navigates a complex dataset across 5 narrative sections without requiring prior knowledge of the topic — all sections load and transition on a static GitHub Pages deployment.</p>
+                        <p class="card-proof"><strong>Proof:</strong> Mini-spec, sprint plan, and committed process artifacts in <code>project_management/</code>.</p>
                         <p class="stack">Next.js · JSON / CSV Data · Data Visualization</p>
                         <div class="card-links">
                             <a class="btn btn-primary btn-sm" href="scrollytelling/index.html">View Project</a>
@@ -68,11 +73,9 @@
                     </article>
                     <article class="card">
                         <h3>AI Chatbot System</h3>
-                        <p>Prototype AI orchestration system built as a Next.js API using the Vercel AI SDK to generate streaming responses with tool-based interactions.</p>
-                        <ul class="feature-list">
-                            <li>Streaming LLM responses</li>
-                            <li>Tool-based interaction patterns</li>
-                        </ul>
+                        <p>Prototype AI orchestration system using the Vercel AI SDK to generate streaming responses with tool-based interactions.</p>
+                        <p class="card-outcome"><strong>Outcome:</strong> Wrapped Vercel AI SDK streams into a reusable tool-call pattern, reducing response-handling boilerplate for future feature additions.</p>
+                        <p class="card-proof"><strong>Proof:</strong> Local working prototype; architecture documented for team handoff.</p>
                         <p class="stack">Next.js · Vercel AI SDK · Node.js</p>
                         <div class="card-links">
                             <a class="btn btn-secondary btn-sm" href="https://github.com/vangela6780" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -80,11 +83,9 @@
                     </article>
                     <article class="card">
                         <h3>Curator Cards Museum Project</h3>
-                        <p>An interactive web experience designed to inform and engage users through museum-label-style design history cards, with emphasis on UI/UX and educational content delivery.</p>
-                        <ul class="feature-list">
-                            <li>Accessible, label-quality content design</li>
-                            <li>Responsive UI with clean typographic hierarchy</li>
-                        </ul>
+                        <p>Museum-label-style design history cards for Bauhaus, Swiss Style, and New Wave Typography — each backed by cited sources and domain vocabulary.</p>
+                        <p class="card-outcome"><strong>Outcome:</strong> Three design movements distilled into scannable, citation-backed cards a first-year student can read in under 3 minutes.</p>
+                        <p class="card-proof"><strong>Proof:</strong> CLAIMS.md and CURATOR_NOTES.md log every sourced claim and vocabulary decision.</p>
                         <p class="stack">HTML · CSS · JavaScript</p>
                         <div class="card-links">
                             <a class="btn btn-secondary btn-sm" href="curator/index.html">View Project</a>
@@ -172,18 +173,18 @@
                 <div class="grid process-grid">
                     <div class="process-step">
                         <span class="step-num">01</span>
-                        <h3>Define</h3>
-                        <p>Write a mini-spec: user story, acceptance criteria, and scope constraints before any code.</p>
+                        <h3>Spec before code</h3>
+                        <p>Write acceptance criteria before the first line of code. The spec is the source of truth — not a retrospective summary written after the fact.</p>
                     </div>
                     <div class="process-step">
                         <span class="step-num">02</span>
-                        <h3>Build</h3>
-                        <p>Implement the narrowest version that satisfies the spec, committing working increments.</p>
+                        <h3>Ship the smallest version that passes</h3>
+                        <p>Implement only what satisfies the current spec. Commit in working increments so the branch is always deployable, not just eventually done.</p>
                     </div>
                     <div class="process-step">
                         <span class="step-num">03</span>
-                        <h3>Refine</h3>
-                        <p>Review against acceptance criteria, update the spec when requirements change, then iterate.</p>
+                        <h3>Test against criteria, then update the spec</h3>
+                        <p>Verify against acceptance criteria first. If scope changes, update the spec to reflect what actually changed — not what was originally planned.</p>
                     </div>
                 </div>
             </div>
