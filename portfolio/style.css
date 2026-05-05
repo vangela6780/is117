@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -66,11 +70,18 @@ body {
 }
 
 .hero-content h1 {
-    font-size: clamp(1.7rem, 5vw, 2.8rem);
-    line-height: 1.2;
-    max-width: 18ch;
-    margin-bottom: 1rem;
+    font-size: clamp(2rem, 5.5vw, 3.2rem);
+    line-height: 1.1;
+    margin-bottom: 0.4rem;
 }
+
+.hero-role {
+    font-size: clamp(1.05rem, 2.5vw, 1.35rem);
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 0.9rem;
+}
+
 
 .eyebrow {
     color: var(--primary);
@@ -153,7 +164,109 @@ h2 {
     gap: 1rem;
 }
 
-.projects-grid,
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+}
+
+.card-featured {
+    grid-column: 1 / -1;
+    border-color: var(--primary);
+    border-width: 2px;
+    position: relative;
+    background: linear-gradient(to bottom right, #f0f5ff, var(--surface));
+}
+
+.card-featured h3 {
+    font-size: 1.25rem;
+}
+
+.badge {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.55rem;
+    border-radius: 0.3rem;
+    margin-bottom: 0.6rem;
+}
+
+.feature-list {
+    list-style: none;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+}
+
+.feature-list li::before {
+    content: "→ ";
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.card-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.9rem;
+}
+
+.btn-sm {
+    padding: 0.45rem 0.8rem;
+    font-size: 0.88rem;
+}
+
+.card {
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(35, 88, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Process section */
+.process-body {
+    max-width: 72ch;
+    color: var(--muted);
+    margin-bottom: 1.5rem;
+}
+
+.process-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.process-step {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 1.1rem;
+}
+
+.step-num {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--primary);
+    opacity: 0.35;
+    line-height: 1;
+    margin-bottom: 0.4rem;
+}
+
+.process-step h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.process-step p {
+    color: var(--muted);
+    font-size: 0.93rem;
+}
+
 .skills-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -178,6 +291,7 @@ h2 {
 .stack {
     color: var(--text);
     font-weight: 600;
+    font-size: 0.88rem;
 }
 
 .card ul {
@@ -228,8 +342,13 @@ footer {
 @media (max-width: 900px) {
     .projects-grid,
     .skills-grid,
+    .process-grid,
     .connect-wrap {
         grid-template-columns: 1fr;
+    }
+
+    .card-featured {
+        grid-column: 1;
     }
 }
 
