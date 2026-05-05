@@ -425,6 +425,26 @@ h2 {
     align-items: start;
 }
 
+/* Looking For section */
+.looking-for-wrap {
+    max-width: 72ch;
+    border-top: 1px solid var(--border);
+    padding-top: 0.5rem;
+}
+
+.looking-for-wrap p {
+    color: var(--muted);
+    margin-bottom: 0.9rem;
+}
+
+.looking-for-note {
+    font-size: 0.93rem;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    padding-top: 0.75rem;
+    margin-top: 0.5rem;
+}
+
 .lead-form {
     background: var(--surface);
     border: 1px solid var(--border);
