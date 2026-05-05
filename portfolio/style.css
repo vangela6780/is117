@@ -229,6 +229,76 @@ h2 {
     transform: translateY(-2px);
 }
 
+/* Experience section */
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.exp-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.4rem;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.exp-card:hover {
+    box-shadow: 0 4px 20px rgba(35, 88, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 0.85rem;
+}
+
+.exp-role {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.2rem;
+    color: var(--text);
+}
+
+.exp-org {
+    color: var(--muted);
+    font-size: 0.94rem;
+    margin: 0;
+}
+
+.exp-dates {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--primary);
+    white-space: nowrap;
+    padding-top: 0.1rem;
+}
+
+.exp-bullets {
+    margin: 0;
+    padding-left: 1.2rem;
+    color: var(--muted);
+}
+
+.exp-bullets li {
+    margin-bottom: 0.35rem;
+}
+
+.exp-bullets li:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .exp-header {
+        flex-direction: column;
+    }
+}
+
 /* Process section */
 .process-body {
     max-width: 72ch;
