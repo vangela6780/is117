@@ -41,7 +41,7 @@ This repository contains multiple assignments completed during the semester and 
 - Process artifacts in this repo:
 	- project_management/mini-spec-scrollytelling.md
 	- project_management/sprint-plan-scrollytelling.md
-	- project_management/active/sprint002_scrollytelling.md
+	- project_management/completed/sprint002_scrollytelling.md
 
 ## Repository Structure
 

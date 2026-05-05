@@ -38,4 +38,4 @@ Why scrollytelling is more effective than static web presentation for communicat
 - [x] Navigation works across anchors and pages.
 - [x] Scroll-triggered reveal animations are implemented.
 - [x] Shared design system is applied.
-- [ ] Repo is on GitHub and deployed with GitHub Pages.
+- [x] Repo is on GitHub and deployed with GitHub Pages.
