@@ -16,13 +16,13 @@
 - **Sprint 002:** [project_management/completed/sprint002_scrollytelling.md](completed/sprint002_scrollytelling.md)
 
 ## Current Deploy URL
-- **Primary assignment URL (Spec-Driven portfolio):** https://vangela6780.github.io/is117/portfolio/
-- **Scrollytelling module URL:** https://vangela6780.github.io/is117/scrollytelling/
-- **Repo URL:** https://github.com/vangela6780/is117
+- **Primary assignment URL (Spec-Driven portfolio):** https://vangela6780.github.io/portfolio/
+- **Scrollytelling module URL:** https://vangela6780.github.io/portfolio/scrollytelling/
+- **Repo URL:** https://github.com/vangela6780/portfolio
 
 ## Known Issues / Risks
-- GitHub Pages root (`/is117/`) may still show non-portfolio content depending on assignment context.
-- Use `/is117/portfolio/` for this assignment submission to avoid grading ambiguity.
+- GitHub Pages may briefly serve cached content after pushes.
+- Hard refresh may be needed right after deployment.
 - Framer auth/preview was unstable earlier (`/api/v1/auth/google/false`), so deployment evidence is based on GitHub Pages.
 
 ## Next Acceptance Criteria
