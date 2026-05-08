@@ -60,6 +60,17 @@ body {
     color: var(--primary);
 }
 
+.menu-toggle {
+    display: none;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    border-radius: 0.5rem;
+    padding: 0.45rem 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 .nav-links {
     display: flex;
     gap: 1rem;
@@ -587,8 +598,8 @@ footer {
 
 @media (max-width: 640px) {
     .nav-wrap {
-        flex-direction: column;
-        gap: 0.65rem;
+        flex-wrap: wrap;
+        gap: 0.5rem;
         padding: 0.8rem 0;
     }
 
@@ -596,10 +607,27 @@ footer {
         font-size: 1.1rem;
     }
 
+    .menu-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 40px;
+    }
+
+    #primaryNav {
+        width: 100%;
+    }
+
     .nav-links {
+        display: none;
         flex-direction: column;
         gap: 0.4rem;
         width: 100%;
+        margin-top: 0.25rem;
+    }
+
+    #primaryNav.is-open .nav-links {
+        display: flex;
     }
 
     .nav-links li {

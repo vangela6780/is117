@@ -1,9 +1,35 @@
 const year = document.getElementById("year");
 const leadForm = document.getElementById("leadForm");
 const formMessage = document.getElementById("formMessage");
+const navToggle = document.getElementById("navToggle");
+const primaryNav = document.getElementById("primaryNav");
 
 if (year) {
     year.textContent = new Date().getFullYear();
+}
+
+if (navToggle && primaryNav) {
+    navToggle.addEventListener("click", function () {
+        const expanded = navToggle.getAttribute("aria-expanded") === "true";
+        navToggle.setAttribute("aria-expanded", String(!expanded));
+        primaryNav.classList.toggle("is-open", !expanded);
+    });
+
+    primaryNav.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+            if (window.innerWidth <= 640) {
+                primaryNav.classList.remove("is-open");
+                navToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+    });
+
+    window.addEventListener("resize", function () {
+        if (window.innerWidth > 640) {
+            primaryNav.classList.remove("is-open");
+            navToggle.setAttribute("aria-expanded", "false");
+        }
+    });
 }
 
 // Spacebar scrolls to next section
