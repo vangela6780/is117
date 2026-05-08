@@ -59,7 +59,7 @@ Establish the global design system and the underlying 12-column grid structure i
 
 ## 7. Completion Evidence
 
-- **Staging URL:** https://vangela6780.github.io/portfolio/
+- **Staging URL:** https://vangela6780.github.io/museum-site/portfolio/
 - **Screenshots:**
 	- Grid layout screenshot: [grid-layout.png](sprint001_receipts/grid-layout.png)
 	- Sticky header screenshot: [sticky-header.png](sprint001_receipts/sticky-header.png)

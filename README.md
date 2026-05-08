@@ -4,19 +4,19 @@ This repository contains multiple assignments completed during the semester and 
 
 ## Live Site (Single Submitted Link)
 
-- Main submitted link: https://vangela6780.github.io/portfolio/
-- Spec-Driven assignment page (portfolio): https://vangela6780.github.io/portfolio/
-- Scrollytelling module: https://vangela6780.github.io/portfolio/scrollytelling/
+- Main submitted link: https://vangela6780.github.io/museum-site/
+- Spec-Driven assignment page (portfolio): https://vangela6780.github.io/museum-site/portfolio/
+- Scrollytelling module: https://vangela6780.github.io/museum-site/scrollytelling/
 
 ## Assignment Requirement Check
 
-- Website URL included in this README: https://vangela6780.github.io/portfolio/
+- Website URL included in this README: https://vangela6780.github.io/museum-site/
 - Reflection included below (200+ words)
 
 ## Assignment Pages
 
 ### 1) Curator Cards (Assignment 2)
-- URL: https://vangela6780.github.io/portfolio/curator/
+- URL: https://vangela6780.github.io/museum-site/curator/
 - Includes 3 curator cards:
 	- Bauhaus (1919–1933)
 	- Swiss Style / International Typographic Style (1950s–1970s)
@@ -28,16 +28,16 @@ This repository contains multiple assignments completed during the semester and 
 	- CLAIMS.md
 
 ### 2) Career Portfolio Site
-- URL: https://vangela6780.github.io/portfolio/
+- URL: https://vangela6780.github.io/museum-site/portfolio/
 - Content includes hero, projects, skills, and contact form.
 
 ### 3) First Basic Webpage (Original Version)
-- URL: https://vangela6780.github.io/portfolio/basic/index.html
+- URL: https://vangela6780.github.io/museum-site/basic/index.html
 - Restored from earlier commit and preserved for grading/history.
 
 ### 4) Scrollytelling Module (Spec-Driven)
-- URL: https://vangela6780.github.io/portfolio/scrollytelling/
-- Supporting page: https://vangela6780.github.io/portfolio/scrollytelling/why.html
+- URL: https://vangela6780.github.io/museum-site/scrollytelling/
+- Supporting page: https://vangela6780.github.io/museum-site/scrollytelling/why.html
 - Process artifacts in this repo:
 	- project_management/mini-spec-scrollytelling.md
 	- project_management/sprint-plan-scrollytelling.md

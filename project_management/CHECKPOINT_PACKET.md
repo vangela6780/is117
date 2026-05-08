@@ -16,9 +16,9 @@
 - **Sprint 002:** [project_management/completed/sprint002_scrollytelling.md](completed/sprint002_scrollytelling.md)
 
 ## Current Deploy URL
-- **Primary assignment URL (Spec-Driven portfolio):** https://vangela6780.github.io/portfolio/
-- **Scrollytelling module URL:** https://vangela6780.github.io/portfolio/scrollytelling/
-- **Repo URL:** https://github.com/vangela6780/portfolio
+- **Primary assignment URL (Spec-Driven portfolio):** https://vangela6780.github.io/museum-site/portfolio/
+- **Scrollytelling module URL:** https://vangela6780.github.io/museum-site/scrollytelling/
+- **Repo URL:** https://github.com/vangela6780/museum-site
 
 ## Known Issues / Risks
 - GitHub Pages may briefly serve cached content after pushes.
@@ -32,9 +32,9 @@
 - [ ] Move completed sprint to `project_management/completed/` with receipts.
 
 ## Final Ship (Deployed URL + Receipts)
-- **Deployed URL:** https://vangela6780.github.io/portfolio/
+- **Deployed URL:** https://vangela6780.github.io/museum-site/portfolio/
 - **Sprint receipt record:** [project_management/completed/sprint001.md](completed/sprint001.md)
-- **Scrollytelling URL:** https://vangela6780.github.io/portfolio/scrollytelling/
+- **Scrollytelling URL:** https://vangela6780.github.io/museum-site/scrollytelling/
 - **Sprint 002 record:** [project_management/completed/sprint002_scrollytelling.md](completed/sprint002_scrollytelling.md)
 - **Evidence screenshots:**
   - [Grid layout](completed/sprint001_receipts/grid-layout.png)

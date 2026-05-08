@@ -5,7 +5,7 @@
 - Course: IS117
 
 ## Submitted URL
-- GitHub Pages: https://vangela6780.github.io/portfolio/
+- GitHub Pages: https://vangela6780.github.io/museum-site/
 
 ## What I Built
 - Portfolio site at the root GitHub Pages URL.
