@@ -96,8 +96,8 @@ body {
 }
 
 .hero-photo {
-    width: 220px;
-    height: 220px;
+    width: 320px;
+    height: 380px;
     object-fit: cover;
     object-position: center top;
     border-radius: 16px;
@@ -621,8 +621,8 @@ footer {
     }
 
     .hero-photo {
-        width: 160px;
-        height: 160px;
+        width: 240px;
+        height: 280px;
         border-radius: 12px;
     }
 
