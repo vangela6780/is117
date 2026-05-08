@@ -5,11 +5,11 @@
 - Course: IS117
 
 ## Submitted URL
-- GitHub Pages: https://vangela6780.github.io/is117/
+- GitHub Pages: https://vangela6780.github.io/portfolio/
 
 ## What I Built
-- Curator Cards assignment at the root site with 3 design-history cards.
-- Portfolio site under `/portfolio/`.
+- Portfolio site at the root GitHub Pages URL.
+- Curator Cards assignment with 3 design-history cards under `/curator/`.
 - Original first basic webpage restored under `/basic/index.html`.
 
 ## Reflection

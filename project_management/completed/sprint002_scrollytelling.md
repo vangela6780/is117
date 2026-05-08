@@ -33,7 +33,7 @@ Add a scrollytelling module to the `is117` portfolio repository and keep process
 
 ## 4. Acceptance Criteria
 
-- [x] `https://vangela6780.github.io/is117/scrollytelling/` loads successfully.
+- [x] `https://vangela6780.github.io/portfolio/scrollytelling/` loads successfully.
 - [x] Homepage contains 5 full-screen story sections.
 - [x] Content page link and return flow work (`returnTo` behavior).
 - [x] Process docs are committed in this same repository.
@@ -53,7 +53,7 @@ Add a scrollytelling module to the `is117` portfolio repository and keep process
 
 ## 7. Completion Evidence
 
-- **Target URL:** https://vangela6780.github.io/is117/scrollytelling/
+- **Target URL:** https://vangela6780.github.io/portfolio/scrollytelling/
 - **Commits:** e0d3154
 - **Date Completed:** 04/30/2026
 

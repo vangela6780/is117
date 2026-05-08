@@ -32,9 +32,9 @@
 - [ ] Move completed sprint to `project_management/completed/` with receipts.
 
 ## Final Ship (Deployed URL + Receipts)
-- **Deployed URL:** https://vangela6780.github.io/is117/portfolio/
+- **Deployed URL:** https://vangela6780.github.io/portfolio/
 - **Sprint receipt record:** [project_management/completed/sprint001.md](completed/sprint001.md)
-- **Scrollytelling URL:** https://vangela6780.github.io/is117/scrollytelling/
+- **Scrollytelling URL:** https://vangela6780.github.io/portfolio/scrollytelling/
 - **Sprint 002 record:** [project_management/completed/sprint002_scrollytelling.md](completed/sprint002_scrollytelling.md)
 - **Evidence screenshots:**
   - [Grid layout](completed/sprint001_receipts/grid-layout.png)
